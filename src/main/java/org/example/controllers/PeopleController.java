@@ -15,7 +15,7 @@ public class PeopleController {
 
     private final UserService userService;
 
-    @Autowired
+
     public PeopleController(UserService userService) {
         this.userService = userService;
     }

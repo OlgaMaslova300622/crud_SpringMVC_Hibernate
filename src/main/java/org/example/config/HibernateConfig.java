@@ -24,7 +24,7 @@ import java.util.Properties;
 public class HibernateConfig {
     private Environment environment;
 
-    @Autowired
+
     public HibernateConfig(Environment environment){
         this.environment = environment;
     }
